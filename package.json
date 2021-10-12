@@ -9,7 +9,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fluent/bundle": "^0.17.0",
     "core-js": "^3.15.1",
+    "fluent-vue": "^3.0.0",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {}
