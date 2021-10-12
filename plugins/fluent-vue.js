@@ -1,9 +1,7 @@
-import { createApp } from "vue";
+import Vue from "vue";
 import { FluentBundle, FluentResource } from "@fluent/bundle";
 
 import { createFluentVue } from "fluent-vue";
-
-import App from "./App";
 
 // Create bundles for locales that will be used
 const enBundle = new FluentBundle("en");
@@ -17,9 +15,8 @@ enBundle.addResource(new FluentResource("another-key = Hello, {$name}"));
 // Create plugin istance
 // bundles - The current negotiated fallback chain of languages
 const fluent = createFluentVue({
-  bundles: [enBundle, ukBundle]
+  bundles: [enBundle, frBundle, deBundle]
 });
 
-createApp(App)
-  // Install Vue plugin
-  .use(fluent);
+// Install Vue plugin
+Vue.use(fluent);

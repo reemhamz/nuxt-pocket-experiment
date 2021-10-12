@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-pocket-experiment',
+    title: 'Nuxt Pocket Experiment',
     htmlAttrs: {
       lang: 'en'
     },
