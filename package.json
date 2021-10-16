@@ -15,5 +15,7 @@
     "fluent-vue": "^3.0.0",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@fluent-vue/nuxt2-build-module": "^0.0.2"
+  }
 }
