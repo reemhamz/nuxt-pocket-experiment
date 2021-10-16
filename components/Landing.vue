@@ -10,8 +10,10 @@
 <script>
 export default {
   methods : {},
-  data: {
-    greeting: "hello!"
+  data () {
+    return {
+      greeting: "hello!"
+    }
   }
 }
 </script>

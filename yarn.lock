@@ -908,6 +908,14 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@fluent-vue/nuxt2-build-module@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@fluent-vue/nuxt2-build-module/-/nuxt2-build-module-0.0.2.tgz#09e0296c0787c3cc19c1a12ab7e09d75a37e57e6"
+  integrity sha512-whmnGE+Dtg1RGtM9W7wJOArthnYLkTiKul7gXHCDzN1RfEZod2NueVMom1u3K0ZDAS+7wcTa4ppuXljnwzco+A==
+  dependencies:
+    fluent-vue-loader "^3.0.0"
+    raw-loader "^4.0.2"
+
 "@fluent/bundle@^0.17.0":
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.0.tgz#02f51f2ca8b85f80dd6b07df93e7ba421b124d52"
@@ -3483,6 +3491,13 @@ flatten@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
   integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
+
+fluent-vue-loader@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/fluent-vue-loader/-/fluent-vue-loader-3.0.0.tgz#309f37d05d5b38d79a772f4a6e52542644b2d18c"
+  integrity sha512-X13NnJZg00RGatQHctLbZBe+SpxrJzrUpjODy6JGXZJG+Rya2cuNW21Kpd3k5oUqlZaOdjBIQFP+rSwiN/9w5Q==
+  dependencies:
+    loader-utils "^2.0.0"
 
 fluent-vue@^3.0.0:
   version "3.0.0"
@@ -6324,6 +6339,14 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+raw-loader@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-4.0.2.tgz#1aac6b7d1ad1501e66efdac1522c73e59a584eb6"
+  integrity sha512-ZnScIV3ag9A4wPX/ZayxL/jZH+euYb6FcUinPcgiQW0+UBtEv0O6Q3lGd3cqJ+GHH+rksEv3Pj99oxJ3u3VIKA==
+  dependencies:
+    loader-utils "^2.0.0"
+    schema-utils "^3.0.0"
 
 rc9@^1.2.0:
   version "1.2.0"
